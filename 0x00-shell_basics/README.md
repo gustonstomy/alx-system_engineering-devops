@@ -13,4 +13,5 @@ ls -a . .. /boot= lists all files (even ones with names beginning with a period 
 file /tmp/iamafile = Write a script that prints the type of the file named 
 ln -s /bin/ls __ls__ = Creates a symbolic link 
 cp -un *.html ../ = Create a script that copies all the HTML
-
+mv [[:upper:]]* /tmp/u = Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u
+rm *~ = Create a script that deletes all files in the current working directory that end with the character ~.
