@@ -7,4 +7,5 @@ groups => prints all the groups the current user is part of
 chown betty hello => changes the owner of the file
 touch hello => creates an empty file called hello
 chmod 001 hello => a script that adds execute permission to the owner of the file
-chmod 001 001 hello => adds user and group excution permission
+chmod 001001 hello => adds user and group excution permission
+chmod 001001001 hello => adds execution permission to all
