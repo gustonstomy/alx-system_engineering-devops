@@ -12,3 +12,4 @@ chmod 001001001 hello => adds execution permission to all
 chomd 007 => permission for only others
 chmod 753 hello => permission -rwxr-x-wx 
 chmod 664 hello => permission as elloh
+chmod -R +x => permission to all subdirectories of the current directory for the owner
