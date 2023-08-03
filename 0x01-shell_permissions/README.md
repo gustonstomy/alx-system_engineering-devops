@@ -6,3 +6,4 @@ whoami =>  prints the effective username of the current user
 groups => prints all the groups the current user is part of
 chown betty hello => changes the owner of the file
 touch hello => creates an empty file called hello
+chmod 001 hello => a script that adds execute permission to the owner of the file
