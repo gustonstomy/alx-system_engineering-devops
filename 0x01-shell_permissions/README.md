@@ -13,3 +13,5 @@ chomd 007 => permission for only others
 chmod 753 hello => permission -rwxr-x-wx 
 chmod 664 hello => permission as elloh
 chmod -R +x => permission to all subdirectories of the current directory for the owner
+mkdir -m 751 my_dir => creates a directory called my_dir with permissions 751 in the working directory.
+chgrp school hello => changes the group owner to school for the file hello
