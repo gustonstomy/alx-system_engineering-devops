@@ -11,3 +11,4 @@ chmod 001001 hello => adds user and group excution permission
 chmod 001001001 hello => adds execution permission to all
 chomd 007 => permission for only others
 chmod 753 hello => permission -rwxr-x-wx 
+chmod 664 hello => permission as elloh
